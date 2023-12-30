@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="./resume.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="d-flex flex-column mb-3">
+        <!-- Header of the page -->
+        <div class="p-2 d-flex">
+            <!-- heading -->
+            <h1 class="p-2 flex-grow-1">About Me</h1>
+            <!-- The side buttons -->
+            <div class="justify-content-evenly flex-row" id="head-buttons">
+                <button onclick="history.back()" type="button" class="p-2 btn btn-outline-primary back">Back</button>
+                <a href="../index.html"><button type="button" class="p-2 btn btn-outline-primary back">Home</button></a>
+                <a href="./Resume.html"><button class="p-2 btn btn-outline-primary">Resume</button></a>
+                <a href="./projects.html"><button class="p-2 btn btn-outline-primary">Projects</button></a>
+                <a href="./pors.html"><button class="p-2 btn btn-outline-primary">PoRs</button></a>
+                <a href="./contact.html"><button class="p-2 btn btn-outline-primary">Contact me</button></a>
+            </div>
+        </div>
+        <div class="p-2 row">
+            <div class="col-4">
+                <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                    <nav class="nav nav-pills flex-column">
+                        <!-- <a class="nav-link" href="#item-1">Career Obejective</a> -->
+                        <a class="nav-link" href="#item-2">Education</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-2-1">BTech</a>
+                            <a class="nav-link ms-3 my-1" href="#item-2-2">Class XII</a>
+                            <a class="nav-link ms-3 my-1" href="#item-2-3">Class X</a>
+                        </nav>
+                        <a class="nav-link" href="#item-3">Technical Skills</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1" href="#item-3-1">Python</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-2">C++</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-3">Data Structures and Algorithms</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-4">LeetCode ID</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-5">Codeforces ID</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-6">Web Development</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-7">Machine Learning</a>
+                            <a class="nav-link ms-3 my-1" href="#item-3-8">MATLAB</a>
+                        </nav>
+                        <a class="nav-link" href="#item-4">Training and Workshops</a>
+                        <a class="nav-link" href="#item-5">Acheivements</a>
+                    </nav>
+                </nav>
+            </div>
+
+            <div class="col-8">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                    class="scrollspy-example-2" tabindex="0">
+                    <!-- <div id="item-1">
+              <h4>Career Objective</h4>
+              <p>My primary goal as a responsible engineer is to further develop my skills and learn new skills in order to
+                come up with technological solutions that benefit a wide range of people. I'm looking forward to working
+                on significant projects with a collaborative and forward-thinking team. As a person, I want to acquire
+                knowledge as much as possible and put that together to find solutions to problems.
+                </p>
+            </div> -->
+                    <div id="item-2">
+                        <h4>Education</h4>
+                    </div>
+                    <div id="item-2-1" class="opacity-75">
+                        <h5>BTech in Electrical Engineering at Indian Institute of Technology Palakkad</h5>
+                        <p>
+                        <ul>
+                            <li>Have current CGPA as 8.71</li>
+                            <li>Timeline: 2021- Present</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div id="item-2-2" class="opacity-75">
+                        <h5>Class XII</h5>
+                        <p>
+                        <ul>
+                            <li>Scored 97% in CBSE board.</li>
+                            <li>Scored perfect 100 in Mathematics.</li>
+                            <li>Subject topper at school for PCM and CS.</li>
+                            <li>Timeline: 2020-21.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div id="item-2-3" class="opacity-75">
+                        <h5>Class X</h5>
+                        <p>
+                        <ul>
+                            <li>Scored 98% in CBSE board.</li>
+                            <li>Second topper at school.</li>
+                            <li>Perfect 100 in Mathematics and English.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div id="item-3">
+                        <h4>Technical Skills</h4>
+                    </div>
+                    <div id="item-3-1" class="opacity-75">
+                        <h5>Python Programming</h5>
+                        <p>Basic knowledge of python programming language, hands on with known libraries like Numpy,
+                            Matplotlib, Pytorch, and Tkinter.</p>
+                    </div>
+                    <div id="item-3-2" class="opacity-75">
+                        <h5>C++ Programming</h5>
+                        <p>Intermediate knowledge of C++ programming language. Have solved over 300+ questions using
+                            C++.</p>
+                    </div>
+                    <div id="item-3-3" class="opacity-75">
+                        <h5>Data Structures and Algorithms</h5>
+                        <p>Knowledge of data structures and have solved over 300+ DSA questions on leetcode and over 70+
+                            questions and contests on codeforces.<br /> Earned 50 Days Badge 2023 in leetcode.</p>
+                    </div>
+                    <div id="item-3-4" class="opacity-75">
+                        <h5>LeetCode ID</h5>
+                        <p>anonymous_maple: <a href="https://leetcode.com/anonymous_maple/">Link to LeetCode ID</a></p>
+                    </div>
+                    <div id="item-3-5" class="opacity-75">
+                        <h5>Codeforces ID</h5>
+                        <p>butterfly98(Newbie): <a href="https://codeforces.com/profile/butterfly98">Link to Codeforces
+                                ID</a></p>
+                    </div>
+                    <div id="item-3-6" class="opacity-75">
+                        <h5>Web Development</h5>
+                        <p>Foundational knowledge of web development using the following tools:<br />
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div id="item-3-7" class="opacity-75">
+                        <h5>Machine Learning</h5>
+                        <p>Known topics: Data Preprocessing, Regression Models, Classification, Clustering (in Python
+                            using sklearn library)</p>
+                    </div>
+                    <div id="item-3-8" class="opacity-75">
+                        <h5>MATLAB</h5>
+                        <p>The “Get Started with Artificial Intelligence” Onramp Courses by Mathworks Virtual Internship
+                            had 5 self paced onramp courses on basics of Matlab, Image Processing, Signal Processing,
+                            Machine Learning and Deep Learning. Successfully completed the course to gain foundational
+                            knowledge about MATLAB.</p>
+                    </div>
+                    <div id="item-4">
+                        <h4>Training and Workshops</h4>
+                        <!-- <p>...</p> -->
+                    </div>
+                    <div id="item-4-1" class="opacity-75">
+                        <h5>Google Girl Hackathon 2023: Round 2 - Learning Cohorts on Silicon Design and Structural
+                            Testing</h5>
+                        <p>Online sessions by Google India.</p>
+                    </div>
+                    <div id="item-4-2" class="opacity-75">
+                        <h5> Get Started with Artificial Intelligence</h5>
+                        <p>Mathworks Virtual Internship.</p>
+                    </div>
+                    <div id="item-4-3" class="opacity-75">
+                        <h5> Technovation Idea Lab 2020</h5>
+                        <p>Technovation.</p>
+                    </div>
+                    <div id="item-5">
+                        <h4>Acheivements</h4>
+                        <div id="item-5-1" class="opacity-75">
+                            <h5>District-Level First Place Winner at NAEST 2020</h5>
+                            <p>I secured First Position in the Prelims, the gateway to Finals, at NAEST 2020, organized
+                                by esteemed Prof.
+                                H.C. Verma. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button onclick="topFunction()" class="top btn btn-outline-primary">Return to Top</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./resume.js" charset="utf-8"></script>
+</body>
+
+</html>
